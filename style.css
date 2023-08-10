@@ -1,0 +1,77 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.fram span{
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2vw;
+    height: 3vw;
+    /* background-color: red; */
+    padding: 0 3vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateY(0vw);
+        -ms-transform: translateY(0vw);
+            transform: translateY(0vw);
+    font-weight: 700;
+}
+.fram{
+    height: 3vw;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+#circle{
+    pointer-events: none;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 1vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0%,0%);
+        -ms-transform: translate(0%,0%);
+            transform: translate(0%,0%);
+    background-color: rgb(33, 53, 112);
+    -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    -o-transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#frams{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
